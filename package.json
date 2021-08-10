@@ -1,5 +1,5 @@
 {
-  "name": "my-site",
+  "name": "itscarine",
   "version": "1.0.0",
   "description": "inclu. NodeJS",
   "main": "index.js",
@@ -22,6 +22,7 @@
     "useragent": "^2.3.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.12",
+    "yarn": "^1.22.11"
   }
 }
