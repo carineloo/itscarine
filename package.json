@@ -4,8 +4,8 @@
   "description": "inclu. NodeJS",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "author": "Carine Loo",
   "license": "ISC",
@@ -22,7 +22,6 @@
     "useragent": "^2.3.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.12",
-    "yarn": "^1.22.11"
+    "nodemon": "^2.0.12"
   }
 }
