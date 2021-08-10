@@ -83,6 +83,12 @@
   box-shadow: 2px 2px 1px $lightPurple;
 }
 
+.vote button:hover {
+  background-color: $blueGreen;
+  border: 1.5px solid $lightPurple;
+  color: #fff;
+}
+
 .vote h6 {
   font-family: $font-fam-4;
   font-size: $font-sm;

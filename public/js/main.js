@@ -38,7 +38,7 @@ const chart = new Chart(ctx, {
 });
 
 // Connect to the server it's (Here you want to change the port if you changed it in the server)
-const socket = io("localhost:8000");
+const socket = io("localhost:8000"|| process.env.PORT);
 
 // On new vote update the chart
 socket.on("update", (titles) => {

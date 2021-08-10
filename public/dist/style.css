@@ -198,6 +198,12 @@ h1 {
   box-shadow: 2px 2px 1px #ECE5F0;
 }
 
+.vote button:hover {
+  background-color: #004741;
+  border: 1.5px solid #ECE5F0;
+  color: #fff;
+}
+
 .vote h6 {
   font-family: "Allerta", sans-serif;
   font-size: 0.875rem;
