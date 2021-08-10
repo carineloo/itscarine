@@ -1,0 +1,19 @@
+#hero {
+  background: url(../img/hero-back.jpeg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#hero h1 {
+  font-family: $font-fam-4;
+}
+
+
+.hero-container {
+  padding: 5rem 4.5rem;
+  border: 1px solid $purple;
+  border-radius: 10px;
+  box-shadow: 8px 10px 3px $lightPurple;
+  background-color: rgba(255, 255, 255, 0.95)
+}
+

@@ -1,0 +1,116 @@
+<section id="hero">
+  <div class="hero-container">
+    <h1>Hi, I'm Carine!</h1>
+    <h2>Welcome to my space.</h2>
+    <%- include('./partials/nav.ejs') %> 
+  </div>
+</section>
+
+<section id="workplay">
+  <div class="container">
+    <div class="row col-12">
+      <div class="col-5 left">
+        <div id="border">
+          <div id="center">
+            <h1>Work n' Play</h1>
+            <%- include('./partials/nav.ejs') %> 
+          </div>
+          <p>my projects and the fun stuff</p>
+        </div>
+      </div>
+      <div class="col-7 right">
+        <div class="content">
+          <h5>first, a message from me...</h5>
+          <div class="message">
+            <p>Hi, it's me Carine. <br><br> I'm 18 and from Malaysia but I'm currently based in the UK. <br><br> I made this website because I'm spending my long summer in Edinburgh and thought what else better to do than to enjoy my time here while also work on something new. <br><br> I'd propably show some projects here in the future but I'll leave that for next time. <br><br> ps. thanks for being here, i really appreciate it. &nbsp x</p>
+          </div>
+
+          <div class="gallery">
+            <a class="btn button" data-toggle="collapse" href="#collapseGallery" role="button" aria-expanded="false" aria-controls="collapseGallery">View Gallery</a>
+            <div class="collapse" id="collapseGallery">
+              <!-- 2020 -->
+              <h5 class="text-center mt-3 mb-1">- 2020 -</h5>
+              <div class="row-gal">
+                <div class="column-gal">
+                  <img class="w-100" src="/img/2020-1.jpg" alt="">
+                  <img class="w-100" src="/img/2020-2.jpg" alt="">
+                  <img class="w-100" src="/img/2020-3.jpg" alt="">
+                  <img class="w-100" src="/img/2020-4.jpg" alt="">
+                </div>
+                <div class="column-gal">
+                  <img class="w-100" src="/img/2020-5.jpg" alt="">
+                  <img class="w-100" src="/img/2020-6.jpg" alt="">
+                  <img class="w-100" src="/img/2020-7.jpg" alt="">
+                  <img class="w-100" src="/img/2020-8.jpg" alt="">          
+                </div>
+              </div>
+              <!-- 2019 -->
+              <h5 class="text-center mt-3 mb-1">- 2019 -</h5>
+              <div class="row-gal">
+                <div class="column-gal">
+                  <img src="/img/2019-1.jpg" alt="">
+                  <img src="/img/2019-2.jpg" alt="">
+                  <img src="/img/2019-3.jpg" alt="">
+                  <img src="/img/2019-4.jpg" alt="">
+                  <img src="/img/2019-5.jpg" alt="">
+                  <img src="/img/2019-6.jpg" alt="">
+                  <img src="/img/2019-7.jpg" alt="">
+                  <img src="/img/2019-8.jpg" alt="">
+                  <img src="/img/2019-9.jpg" alt="">
+                </div>
+                <div class="column-gal">
+                  <img src="/img/2019-10.jpg" alt="">
+                  <img src="/img/2019-11.jpg" alt="">
+                  <img src="/img/2019-12.jpg" alt="">
+                  <img src="/img/2019-13.jpg" alt="">
+                  <img src="/img/2019-14.jpg" alt="">
+                  <img src="/img/2019-15.jpg" alt="">
+                  <img src="/img/2019-16.jpg" alt="">
+                  <img src="/img/2019-17.jpg" alt="">
+                  <img src="/img/2019-18.jpg" alt="">
+                  <img src="/img/2019-19.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="vote">
+            <a class="btn button mb-3" data-toggle="collapse" href="#collapsePoll" role="button" aria-expanded="false" aria-controls="collapseGallery">Pick your favourite shows!</a>
+            <div class="collapse" id="collapsePoll">
+              <h6>Note: These shows were randomly selected with no siginificant pattern. <i>You may select one every 5 seconds.</i></h6>
+              <!-- The buttons -->
+              <button onclick="vote(0)">Friends</button>
+              <button onclick="vote(1)">The Good Doctor</button>
+              <button onclick="vote(2)">Modern Family</button>
+              <button onclick="vote(3)">You</button>
+              <button onclick="vote(4)">Brooklyn Nine-Nine</button>
+              <button onclick="vote(5)">How to Get Away with Murder</button>
+              <button onclick="vote(6)">iZombie</button>
+              <button onclick="vote(7)">The 100</button>
+              <button onclick="vote(8)">The Big Bang Theory</button>
+              <button onclick="vote(9)">Altered Carbon</button>
+              <button onclick="vote(10)">New Girl</button>
+              <button onclick="vote(11)">How I Met Your Mother</button>
+              <button onclick="vote(12)">Prison Break</button>
+              <button onclick="vote(13)">Money Heist</button>
+              <button onclick="vote(14)">The Office</button>
+              <button onclick="vote(15)">Jane The Virgin</button>
+              <button onclick="vote(16)">Breaking Bad</button>
+              <button onclick="vote(17)">Girl From Nowhere</button>
+              <button onclick="vote(18)">(Others)</button>
+
+              <!-- The canvas -->
+              <div class="chart-container">
+                <canvas id="voteChart"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h1>Contact</h1>
+</section>
