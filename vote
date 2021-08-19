@@ -1,0 +1,69 @@
+<div class="vote">
+  <a class="btn button mb-3" data-toggle="collapse" href="#collapsePoll" role="button" aria-expanded="false" aria-controls="collapseGallery">Pick your favourite shows!</a>
+  <div class="collapse" id="collapsePoll">
+    <h6>Note: These shows were randomly selected with no siginificant pattern. <i>You may select one every 5 seconds.</i></h6>
+    <!-- The buttons -->
+    <button onclick="vote(0)">Friends</button>
+    <button onclick="vote(1)">The Good Doctor</button>
+    <button onclick="vote(2)">Modern Family</button>
+    <button onclick="vote(3)">You</button>
+    <button onclick="vote(4)">Brooklyn Nine-Nine</button>
+    <button onclick="vote(5)">How to Get Away with Murder</button>
+    <button onclick="vote(6)">iZombie</button>
+    <button onclick="vote(7)">The 100</button>
+    <button onclick="vote(8)">The Big Bang Theory</button>
+    <button onclick="vote(9)">Altered Carbon</button>
+    <button onclick="vote(10)">New Girl</button>
+    <button onclick="vote(11)">How I Met Your Mother</button>
+    <button onclick="vote(12)">Prison Break</button>
+    <button onclick="vote(13)">Money Heist</button>
+    <button onclick="vote(14)">The Office</button>
+    <button onclick="vote(15)">Jane The Virgin</button>
+    <button onclick="vote(16)">Breaking Bad</button>
+    <button onclick="vote(17)">Girl From Nowhere</button>
+    <button onclick="vote(18)">(Others)</button>
+
+    <!-- The canvas -->
+    <div class="chart-container">
+      <canvas id="voteChart"></canvas>
+    </div>
+  </div>
+</div>
+
+css:
+
+//Poll (voting)
+ .vote {
+  margin-top: 1rem;
+ }
+
+ .vote button {
+   background-color: $lightPurple;
+   border: 1.5px solid $purple;
+   border-radius: 1px;
+   padding: 0.175rem 0.375rem;
+   margin: 0.275rem;
+   box-shadow: 2px 2px 1px $lightPurple;
+ }
+
+ .vote button:hover {
+   transition: 200ms ease-in-out;
+   background-color: $blueGreen;
+   border: 1.5px solid $lightPurple;
+   color: #fff;
+ }
+
+ .vote h6 {
+   font-family: $font-fam-4;
+   font-size: $font-sm;
+ }
+
+ .chart-container {
+   position: relative;
+   margin: auto;
+   width: 100vh;
+ }
+
+ canvas {
+   margin-top: 0.5rem;
+ }

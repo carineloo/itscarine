@@ -98,7 +98,7 @@ h1 {
 }
 
 #hero {
-  background: url(../img/hero-back.jpeg) no-repeat;
+  background: url(../img/Dash.png) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -183,40 +183,6 @@ h1 {
 .message {
   font-family: "Allerta", sans-serif;
   font-size: 0.875rem;
-}
-
-.vote {
-  margin-top: 1rem;
-}
-
-.vote button {
-  background-color: #ECE5F0;
-  border: 1.5px solid #59114D;
-  border-radius: 1px;
-  padding: 0.175rem 0.375rem;
-  margin: 0.275rem;
-  box-shadow: 2px 2px 1px #ECE5F0;
-}
-
-.vote button:hover {
-  background-color: #004741;
-  border: 1.5px solid #ECE5F0;
-  color: #fff;
-}
-
-.vote h6 {
-  font-family: "Allerta", sans-serif;
-  font-size: 0.875rem;
-}
-
-.chart-container {
-  position: relative;
-  margin: auto;
-  width: 100vh;
-}
-
-canvas {
-  margin-top: 0.5rem;
 }
 
 .gallery h5 {
