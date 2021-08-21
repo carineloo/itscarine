@@ -1,0 +1,41 @@
+/* The sidebar menu */
+.sidenav {
+  width: 45px;
+  position: fixed;
+  z-index: 1;
+  top: 35%;
+  right: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background: rgba(209, 209, 209, 0.4);
+  overflow-x: hidden;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 10px;
+  text-decoration: none;
+  font-size: 30px;
+  display: block;
+}
+
+#ig {
+  color: #bc2a8d;
+}
+
+#fb {
+  color: #4267B2;
+} 
+
+#sc {
+  color: #FFFC00;
+}
+
+#yt {
+  color: #FF0000;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  font-size: 33px;
+}

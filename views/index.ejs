@@ -1,8 +1,18 @@
+<!-- Side navigation -->
+<div class="sidenav">
+  <a class="fa fa-instagram" id="ig" href="https://www.instagram.com/carinerinring/" target="_blank"></a>
+  <a class="fa fa-facebook-official" id="fb" href="https://www.facebook.com/carinerinring/" target="_blank"></a>
+  <a class="fa fa-snapchat-ghost" id="sc" href="https://www.snapchat.com/add/carinel2o?share_id=N0IxMzk4&locale=en_GB" target="_blank"></a>
+  <a class="fa fa-youtube-play" id="yt" href="https://www.youtube.com/channel/UCIXWm1rcrp2EdiSg0fcrrkw" target="_blank"></a>
+</div>
+
 <section id="hero">
   <div class="hero-container">
-    <h1>Hi, I'm Carine!</h1>
-    <h2>Welcome to my space.</h2>
-    <%- include('./partials/nav.ejs') %> 
+    <div class="hero-content">
+      <h1>Hi, I'm Carine!</h1>
+      <h2>Welcome to my space.</h2>
+      <%- include('./partials/nav.ejs') %> 
+    </div>
   </div>
 </section>
 
@@ -12,7 +22,7 @@
       <div class="col-5 left">
         <div id="border">
           <div id="center">
-            <h1>Work n' Play</h1>
+            <h1>Life</h1>
             <%- include('./partials/nav.ejs') %> 
           </div>
           <p>my projects and the fun stuff</p>
@@ -20,9 +30,13 @@
       </div>
       <div class="col-7 right">
         <div class="content">
-          <h5>first, a message from me...</h5>
+          <!-- <h5>first, a message from me...</h5> -->
           <div class="message">
-            <p>Hi, it's me Carine. <br><br> I'm 18 and from Malaysia but I'm currently based in the UK. <br><br> I made this website because I'm spending my long summer in Edinburgh and thought what else better to do than to enjoy my time here while also work on something new. <br><br> I'd propably show some projects here in the future but I'll leave that for next time. <br><br> ps. thanks for being here, i really appreciate it. &nbsp x</p>
+            <p>(work in progress)</p>
+
+            <!-- <p>Hi, it's me Carine. <br><br> I'm 18 and from Malaysia but I'm currently based in the UK. <br><br> I made this website because I'm spending my long summer in Edinburgh and thought what else better to do than to enjoy my time here while also work on something new. <br><br> I'd propably show some projects here in the future but I'll leave that for next time.  -->
+              
+            <br> ps. thanks for being here, i really appreciate it. &nbsp x</p>
           </div>
 
           <div class="gallery">
@@ -79,6 +93,43 @@
   </div>
 </section>
 
-<section id="contact">
-  <h1>Contact</h1>
+<!-- contact-form -->
+<section class="contact-form" id="contact">
+  <div class="cover">
+    <div class="text-center">
+      <h1>Say hi!</h1>
+    </div>
+    <div class="container">
+      <form action="https://formspree.io/f/xpzkoopl" method="POST" enctype="multipart/form-data" id="my-form">
+        <div class="form-group">
+          <label for="firstName">First Name</label>
+          <input type="text" name="First Name" required>
+        </div>
+        <div class="form-group">
+          <label for="latsName">Last Name</label>
+          <input type="text" name="Last Name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="Email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea name="Message" id="message" cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+
+    <div id="status"></div>
+
+    <!-- copyright -->
+    <div class="copyright">
+      &copy;
+      <script>
+        document.write(new Date().getFullYear());
+      </script>
+      Carine
+    </div>
+  </div>
 </section>

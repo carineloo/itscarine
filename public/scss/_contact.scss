@@ -1,0 +1,123 @@
+/* -----contact-form----- */
+.contact-form .cover {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(0.25turn, #9a8b9a, $lightPurple, $lightGray, $purple);
+	background-size: 300% 300%;
+	animation: gradient 13s ease infinite;
+  overflow: hidden;
+  padding-top: 3.8rem;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.contact-form .container {
+  width: 40%;
+  max-width: 80%;
+  margin: 2rem auto;
+  padding: 1rem 5rem 1.3rem 5rem;
+  box-shadow: 0px 0px 20px #00000020;
+  background-color: rgba(243, 243, 243, 0.9);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-top: 1rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  text-align: center;
+  outline: none;
+  padding: 2px;
+  font-size: $font-sm;
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.199);
+}
+
+.form-group textarea {
+  resize: vertical;
+  height: 100px;
+  max-height: 150px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.199);
+}
+
+form button[type="submit"] {
+  outline: none;
+  width: 20%;
+  border: none;
+  border: 1px solid $purple;
+  border-radius: 5px;
+  color: $purple;
+  font-size: $font-sm;
+  text-align: center;
+  cursor: pointer;
+  display: block;
+  margin: 3px 0 0 auto;
+  padding: 4px;
+  transition: 0.3s ease background-color;
+}
+
+button[type="submit"]:hover {
+  background-color: $lightPurple;
+}
+
+#status {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+#status.success {
+  background-color: rgb(211, 250, 153);
+  animation: status 4s ease forwards;
+}
+
+#status.error {
+  background-color: rgb(250, 129, 92);
+  color: white;
+  animation: status 4s ease forwards;
+}
+
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+.copyright {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  font-size: $font-sm;
+  
+}

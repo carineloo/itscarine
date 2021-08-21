@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  font-family: $font-fam-1;
+  font-family: $font-fam-4;
   background: #fff;
   width: 100%;
   height: 100vh;
@@ -43,14 +43,13 @@ h1 {
   padding: 0.3rem 0.55rem;
   background-color: $lightPurple;
   color: $purple;
-  text-decoration: underline;
-  box-shadow: 5px 6px 4px $purple;
+  box-shadow: 4px 5px 3px black;
   transition: 300ms ease-in-out;
 }
 
 .button:hover {
-  background-color: $purple;
-  color: $lightPurple;
+  // background-color: $purple;
+  // color: $lightPurple;
   box-shadow: 3px 4px 3px $lightPurple;
 }
 
