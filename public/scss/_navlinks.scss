@@ -6,6 +6,7 @@
   padding: 0;
   margin: 2rem 0 0 0;
   font-family: 'Uchen', serif;
+  z-index: 999;
 }
 
 .navlinks ul li {
@@ -15,7 +16,6 @@
 
 .navlinks ul li a {
   text-decoration: none;
-  text-transform: lowercase;
   color: $purple;
 }
 
