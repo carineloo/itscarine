@@ -1,0 +1,37 @@
+@media screen and (max-width: 884px) {
+  .nav-logo {
+    width: 30%;
+    margin: 1.5rem auto 0 1rem;
+  }
+  #hero {
+    background: url(../img/Dash-Mobile.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .hero-container {
+    margin: 0 1rem;
+    padding: 2rem 0.8rem 1.8rem 0.8rem;
+  }
+  .left {
+    margin: 0;
+    padding: 0;
+  }
+  .right {
+    background-color: $blueGreen;
+    padding: 0;
+  }
+  iframe {
+    width: 60%;
+    height: 20%;
+  }
+  #mobile-back {
+    background-color: $blueGreen;
+    border: 2px solid $lightPurple;
+    margin: 10px 20px 5px 20px;
+  }
+  .content {
+    padding: 0.8rem;
+    margin: 0;
+  }
+  
+}

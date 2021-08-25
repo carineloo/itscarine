@@ -99,7 +99,7 @@ h1 {
   width: 45px;
   position: fixed;
   z-index: 1;
-  top: 35%;
+  top: 40%;
   right: 0;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
@@ -205,10 +205,17 @@ h1 {
   right: 0;
   background-color: #004741;
   overflow: scroll;
+  padding: 0 3.5rem 0 3.5rem;
+}
+
+iframe {
+  width: 80%;
+  height: 40%;
+  margin: 2rem 0 0 0;
 }
 
 .content {
-  padding: 3rem 3.5rem 1rem 3.5rem;
+  padding: 3rem 0 1rem 0;
   text-align: left;
   color: #ECE5F0;
 }
@@ -378,5 +385,42 @@ button[type="submit"]:hover {
   left: 0;
   margin: auto;
   font-size: 0.875rem;
+}
+
+@media screen and (max-width: 884px) {
+  .nav-logo {
+    width: 30%;
+    margin: 1.5rem auto 0 1rem;
+  }
+  #hero {
+    background: url(../img/Dash-Mobile.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .hero-container {
+    margin: 0 1rem;
+    padding: 2rem 0.8rem 1.8rem 0.8rem;
+  }
+  .left {
+    margin: 0;
+    padding: 0;
+  }
+  .right {
+    background-color: #004741;
+    padding: 0;
+  }
+  iframe {
+    width: 60%;
+    height: 20%;
+  }
+  #mobile-back {
+    background-color: #004741;
+    border: 2px solid #ECE5F0;
+    margin: 10px 20px 5px 20px;
+  }
+  .content {
+    padding: 0.8rem;
+    margin: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */
